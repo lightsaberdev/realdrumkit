@@ -1,7 +1,6 @@
 function clickEvent(e) {
     play(e.target.innerText);
 }
-
 function keyDown(e) {
     play(e.key);
     key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
